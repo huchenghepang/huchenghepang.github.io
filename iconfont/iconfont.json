@@ -1,0 +1,44 @@
+{
+  "id": "4595128",
+  "name": "svg",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "svg",
+  "glyphs": [
+    {
+      "icon_id": "88045",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7573265",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "33401381",
+      "name": "奋斗",
+      "font_class": "fendou",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "37728241",
+      "name": "奋斗者",
+      "font_class": "fendouzhe",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "34453015",
+      "name": "info",
+      "font_class": "info",
+      "unicode": "e83d",
+      "unicode_decimal": 59453
+    }
+  ]
+}
