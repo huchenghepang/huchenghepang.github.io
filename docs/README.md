@@ -25,7 +25,7 @@ features:
   - title: 护城河
     details: 不要停止对生活的思考，要有对环境的适应和突破，相信光在就在角落里积蓄力量！
   
-footer: MIT Licensed | Copyright © 护城河
+footer: MIT Licensed | Copyright © 护城河 & Vans
 ---
 <div style="display: flex;justify-content: center;"><span>我想我将是世界上最不入流的编剧，因为我不能只因为现实就"脚踏实地"的去编撰一个大多数人相信的梦！</span></div>
 
