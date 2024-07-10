@@ -1,0 +1,16 @@
+import comp from "D:/VueProject/myblog/skycity/docs/.vuepress/.temp/pages/posts/JDoc.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/JDoc.html\",\"title\":\"JSDoc简介\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2024-05-17T00:00:00.000Z\",\"category\":[\"JavaScript\"],\"tag\":[\"前端\"],\"archive\":false},\"headers\":[{\"level\":3,\"title\":\"1. JSDoc 简介\",\"slug\":\"_1-jsdoc-简介\",\"link\":\"#_1-jsdoc-简介\",\"children\":[]},{\"level\":3,\"title\":\"2. JSDoc 注释格式\",\"slug\":\"_2-jsdoc-注释格式\",\"link\":\"#_2-jsdoc-注释格式\",\"children\":[]},{\"level\":3,\"title\":\"3. 常用标签\",\"slug\":\"_3-常用标签\",\"link\":\"#_3-常用标签\",\"children\":[]},{\"level\":3,\"title\":\"4. 数据类型\",\"slug\":\"_4-数据类型\",\"link\":\"#_4-数据类型\",\"children\":[]},{\"level\":3,\"title\":\"5. 生成文档\",\"slug\":\"_5-生成文档\",\"link\":\"#_5-生成文档\",\"children\":[]},{\"level\":3,\"title\":\"6. 结束语\",\"slug\":\"_6-结束语\",\"link\":\"#_6-结束语\",\"children\":[]},{\"level\":3,\"title\":\"附录\",\"slug\":\"附录\",\"link\":\"#附录\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"posts/JDoc.md\",\"excerpt\":\"\\n<h3>1. JSDoc 简介</h3>\\n<p>JSDoc 是一种用于 JavaScript 注释的标准，可以帮助开发者描述代码的功能、参数、返回值等信息，并提供代码补全、参数提示和文档生成等功能。</p>\\n<h3>2. JSDoc 注释格式</h3>\\n<p>JSDoc 注释以 <code>/**</code> 开头和 <code>*/</code> 结尾，可以包含多行注释和标签。</p>\\n<div class=\\\"language-javascript\\\" data-highlighter=\\\"prismjs\\\" data-ext=\\\"js\\\" data-title=\\\"js\\\"><pre class=\\\"language-javascript\\\"><code><span class=\\\"line\\\"><span class=\\\"token doc-comment comment\\\">/**</span>\\n<span class=\\\"line\\\"> * 这是一个 JSDoc 注释的示例。</span>\\n<span class=\\\"line\\\"> */</span></span>\\n<span class=\\\"line\\\"></span></code></pre></div>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

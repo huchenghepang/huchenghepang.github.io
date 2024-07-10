@@ -1,0 +1,16 @@
+import comp from "D:/VueProject/myblog/skycity/docs/.vuepress/.temp/pages/posts/数据库的概念.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%A6%82%E5%BF%B5.html\",\"title\":\"数据库的概念\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2022-11-20T00:00:00.000Z\",\"category\":[\"数据库\"],\"tag\":[\"技术\",\"数据库\"],\"archive\":false},\"headers\":[{\"level\":2,\"title\":\"1. 为什么要使用数据库？\",\"slug\":\"_1-为什么要使用数据库\",\"link\":\"#_1-为什么要使用数据库\",\"children\":[]},{\"level\":2,\"title\":\"2. 什么是数据库？\",\"slug\":\"_2-什么是数据库\",\"link\":\"#_2-什么是数据库\",\"children\":[]},{\"level\":2,\"title\":\"3.什么是MySQL？MySQL是数据库吗？\",\"slug\":\"_3-什么是mysql-mysql是数据库吗\",\"link\":\"#_3-什么是mysql-mysql是数据库吗\",\"children\":[]},{\"level\":2,\"title\":\"4. 什么是关系型数据库？\",\"slug\":\"_4-什么是关系型数据库\",\"link\":\"#_4-什么是关系型数据库\",\"children\":[]},{\"level\":2,\"title\":\"5. SQL是一种结构化查询语言，那么什么是结构化查询语言？\",\"slug\":\"_5-sql是一种结构化查询语言-那么什么是结构化查询语言\",\"link\":\"#_5-sql是一种结构化查询语言-那么什么是结构化查询语言\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"posts/数据库的概念.md\",\"excerpt\":\"\\n<h2>1. 为什么要使用数据库？</h2>\\n<p>答：数据持久化的需要：使用数据库可以将内存中的数据（临时数据）保存到掉电式的内存设备中，从而实现数据的持久化，以供之后使用。持久化的大多数时候是将数据储存在数据库中，当然也可以储存在磁盘文件或者一些其他特定格式的文件中如：<code>TXT、XML</code></p>\\n<p>方便数据管理：将数据以数据库的以特定格式和特定关系保存数据，可以更方便的调用数据、方便检索以及管理数据</p>\\n<h2>2. 什么是数据库？</h2>\\n<p>DB（DATABASE）：数据库是储存数据的仓库，保存着一系列有组织的数据。</p>\\n<p>DBMS(DATABASE Management System):数据库管理系统是操纵和管理数据库的大型软件。例如：建立数据库、使用数据库、维护数据库。</p>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
