@@ -1,0 +1,16 @@
+import comp from "D:/VueProject/myblog/skycity/docs/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"主页\",\"lang\":\"en-US\",\"frontmatter\":{\"home\":true,\"title\":\"主页\",\"heroImage\":\"https://img2.baidu.com/it/u=3431438589,3113973609&fm=253&fmt=auto&app=138&f=JPEG?w=340&h=340\",\"actions\":[{\"text\":\"我的笔记\",\"link\":\"/article/\",\"type\":\"primary\"},{\"text\":\"个人介绍\",\"link\":\"/resume/\",\"type\":\"secondary\"}],\"features\":[{\"title\":\"乔布斯\",\"details\":\"如果你还没能找到让自己热爱的事业，继续寻找，不要放弃。跟随自己的心，总有一天你会找到的\"},{\"title\":\"比尔盖茨\",\"details\":\"做积极的思考者，不要败给悲观的自己。\"},{\"title\":\"卢梭\",\"details\":\"人是生而自由的，但却无处不在枷锁之中。……放弃自由就是放弃作为人的资格，放弃人类的权利，也就是放弃自己的职责。当这种行为一旦撤销时，自然状态就随之回归，一切都将丧失。这是一种违反自然的状态，是人类社会的堕落。.\"},{\"title\":\"鲁迅\",\"details\":\"无穷的远方，无数的人们，都和我有关。\"},{\"title\":\"王安石\",\"details\":\"世之奇伟、瑰怪、非常之观，常在于险远，而人之所罕至焉。\"},{\"title\":\"护城河\",\"details\":\"不要停止对生活的思考，要有对环境的适应和突破，相信光在就在角落里积蓄力量！\"}],\"footer\":\"MIT Licensed | Copyright © 护城河\"},\"headers\":[],\"git\":{},\"filePathRelative\":\"README.md\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

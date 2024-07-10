@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <link rel="icon" href="../public/img/logo.png"><title>Tag python | 天空之城</title><meta name="description" content="理想的城池高悬在天上，地上的河水包围着影子">
+    <link rel="stylesheet" href="/assets/css/styles.a5876e6f.css">
+    <link rel="preload" href="/assets/js/runtime~app.7a204223.js" as="script"><link rel="preload" href="/assets/css/styles.a5876e6f.css" as="style"><link rel="preload" href="/assets/js/484.0e1141fb.js" as="script"><link rel="preload" href="/assets/js/app.1ea6f656.js" as="script">
+    <link rel="prefetch" href="/assets/js/posts_python的简单应用.html.cdc7d315.js" as="script"><link rel="prefetch" href="/assets/js/posts_反向代理服务器.html.502025b7.js" as="script"><link rel="prefetch" href="/assets/js/posts_JDoc.html.f082c4f7.js" as="script"><link rel="prefetch" href="/assets/js/posts_Excel公式.html.8cfe6c3b.js" as="script"><link rel="prefetch" href="/assets/js/161.99140b0f.js" as="script"><link rel="prefetch" href="/iconfont/iconfont.js" as="script"><link rel="prefetch" href="/assets/js/posts_Vue的面试题.html.417d30df.js" as="script"><link rel="prefetch" href="/assets/js/posts_数据库的概念.html.7f4982ee.js" as="script"><link rel="prefetch" href="/assets/js/get-started.html.c205406f.js" as="script"><link rel="prefetch" href="/assets/js/posts_Excel项目实例.html.d7753708.js" as="script"><link rel="prefetch" href="/assets/js/posts_PowerBI实例.html.38ebfabb.js" as="script"><link rel="prefetch" href="/assets/js/index.html.2207da34.js" as="script"><link rel="prefetch" href="/assets/js/category_数据分析_index.html.3edb0a10.js" as="script"><link rel="prefetch" href="/assets/js/category_数据库_index.html.1c9f2b94.js" as="script"><link rel="prefetch" href="/assets/js/category_服务器_index.html.c5e59ead.js" as="script"><link rel="prefetch" href="/assets/js/tag_数据分析_index.html.cce2528d.js" as="script"><link rel="prefetch" href="/assets/js/category_javascript_index.html.9059a318.js" as="script"><link rel="prefetch" href="/assets/js/category_工作_index.html.a3892c74.js" as="script"><link rel="prefetch" href="/assets/js/tag_数据库_index.html.e1f1b23c.js" as="script"><link rel="prefetch" href="/assets/js/tag_服务器_index.html.bc9a2c2c.js" as="script"><link rel="prefetch" href="/assets/js/tag_面试题_index.html.cdd31a20.js" as="script"><link rel="prefetch" href="/iconfont/iconfont.css" as="style"><link rel="prefetch" href="/assets/js/category_python_index.html.4d17ec6e.js" as="script"><link rel="prefetch" href="/assets/js/category_excel_index.html.fceb4ff4.js" as="script"><link rel="prefetch" href="/assets/js/category_vue_index.html.f14011f6.js" as="script"><link rel="prefetch" href="/assets/js/tag_前端_index.html.ac7a65fd.js" as="script"><link rel="prefetch" href="/assets/js/tag_办公_index.html.d26d46e1.js" as="script"><link rel="prefetch" href="/assets/js/tag_工作_index.html.04a6ce5f.js" as="script"><link rel="prefetch" href="/assets/js/tag_技术_index.html.6601c46c.js" as="script"><link rel="prefetch" href="/assets/js/category_bi_index.html.e84e65fc.js" as="script"><link rel="prefetch" href="/assets/js/tag_python_index.html.49d27126.js" as="script"><link rel="prefetch" href="/assets/js/tag_excel_index.html.260c3178.js" as="script"><link rel="prefetch" href="/assets/js/category_index.html.4fd82351.js" as="script"><link rel="prefetch" href="/assets/js/tag_vue_index.html.a1f99f10.js" as="script"><link rel="prefetch" href="/assets/js/timeline_index.html.4dce7b8a.js" as="script"><link rel="prefetch" href="/assets/js/article_index.html.ac67d607.js" as="script"><link rel="prefetch" href="/assets/js/resume_index.html.38cf3438.js" as="script"><link rel="prefetch" href="/assets/js/404.html.c6f05e9c.js" as="script"><link rel="prefetch" href="/assets/js/tag_index.html.610a6240.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon"><!--[--><header class="vp-navbar"><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><img class="vp-site-logo" src="https://img2.baidu.com/it/u=3431438589,3113973609&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=340&amp;h=340" alt="天空之城"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">天空之城</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="主页"><!---->主页<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="文章"><!---->文章<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="分类"><!---->分类<!----></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/tag/" aria-label="标签"><!---->标签<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="时间表"><!---->时间表<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/resume/" aria-label="简历"><!---->简历<!----></a></div><!--]--></nav><!--[--><!--]--><button class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar"><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/" aria-label="主页"><!---->主页<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/article/" aria-label="文章"><!---->文章<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/category/" aria-label="分类"><!---->分类<!----></a></div><div class="vp-navbar-item"><a class="route-link route-link-active auto-link" href="/tag/" aria-label="标签"><!---->标签<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/timeline/" aria-label="时间表"><!---->时间表<!----></a></div><div class="vp-navbar-item"><a class="route-link auto-link" href="/resume/" aria-label="简历"><!---->简历<!----></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><div class="tag-wrapper"><!--[--><a class="route-link tag" href="/tag/excel/">Excel <span class="tag-num">2</span></a><a class="route-link tag" href="/tag/%E5%B7%A5%E4%BD%9C/">工作 <span class="tag-num">2</span></a><a class="route-link tag" href="/tag/%E5%8A%9E%E5%85%AC/">办公 <span class="tag-num">3</span></a><a class="route-link tag" href="/tag/%E5%89%8D%E7%AB%AF/">前端 <span class="tag-num">2</span></a><a class="route-link tag" href="/tag/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/">数据分析 <span class="tag-num">1</span></a><a class="route-link route-link-active tag" href="/tag/python/">python <span class="tag-num">1</span></a><a class="route-link tag" href="/tag/vue/">Vue <span class="tag-num">1</span></a><a class="route-link tag" href="/tag/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题 <span class="tag-num">1</span></a><a class="route-link tag" href="/tag/%E6%8A%80%E6%9C%AF/">技术 <span class="tag-num">2</span></a><a class="route-link tag" href="/tag/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器 <span class="tag-num">1</span></a><a class="route-link tag" href="/tag/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库 <span class="tag-num">1</span></a><!--]--></div><div class="article-wrapper"><!----><!--[--><article class="article"><header class="title">python 办公项目实例</header><hr><div class="article-info"><!----><span class="date">时间: 2024/7/10</span><span class="category">分类: python</span><span class="tag">标签: python</span></div><div class="excerpt">
+<ol>
+<li>
+<h2>python实现的群发工资条</h2>
+</li>
+</ol>
+<div class="language-python" data-highlighter="prismjs" data-ext="py" data-title="py"><pre class="language-python"><code><span class="line"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd</span>
+<span class="line"><span class="token keyword">import</span> imgkit</span>
+<span class="line"><span class="token keyword">from</span> email<span class="token punctuation">.</span>mime<span class="token punctuation">.</span>multipart <span class="token keyword">import</span> MIMEMultipart</span>
+<span class="line"><span class="token keyword">from</span> email<span class="token punctuation">.</span>mime<span class="token punctuation">.</span>text <span class="token keyword">import</span> MIMEText</span>
+<span class="line"><span class="token keyword">import</span> smtplib</span>
+<span class="line"><span class="token keyword">from</span> email<span class="token punctuation">.</span>mime<span class="token punctuation">.</span>image <span class="token keyword">import</span> MIMEImage</span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">def</span> <span class="token function">send_salary_slip</span><span class="token punctuation">(</span>sender_email<span class="token punctuation">,</span> sender_password<span class="token punctuation">,</span> receiver_email<span class="token punctuation">,</span> subject<span class="token punctuation">,</span> message<span class="token punctuation">)</span><span class="token punctuation">:</span></span>
+<span class="line">    <span class="token comment"># 创建邮件内容对象</span></span>
+<span class="line">    msg <span class="token operator">=</span> MIMEMultipart<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">    msg<span class="token punctuation">[</span><span class="token string">'From'</span><span class="token punctuation">]</span> <span class="token operator">=</span> sender_email</span>
+<span class="line">    msg<span class="token punctuation">[</span><span class="token string">'To'</span><span class="token punctuation">]</span> <span class="token operator">=</span> receiver_email</span>
+<span class="line">    msg<span class="token punctuation">[</span><span class="token string">'Subject'</span><span class="token punctuation">]</span> <span class="token operator">=</span> subject</span>
+<span class="line">    <span class="token comment">#  将HTML转为图片</span></span>
+<span class="line">    config <span class="token operator">=</span> imgkit<span class="token punctuation">.</span>config<span class="token punctuation">(</span>wkhtmltoimage<span class="token operator">=</span> <span class="token string">r"D:\program files\wkhtmltopdf\bin\wkhtmltoimage.exe"</span><span class="token punctuation">)</span></span>
+<span class="line">    imgkit<span class="token punctuation">.</span>from_string<span class="token punctuation">(</span>message<span class="token punctuation">,</span> <span class="token string">'./output.png'</span><span class="token punctuation">,</span>config<span class="token operator">=</span>config<span class="token punctuation">)</span></span>
+<span class="line">    <span class="token comment"># 添加图片附件</span></span>
+<span class="line">    <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'output.png'</span><span class="token punctuation">,</span> <span class="token string">'rb'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span></span>
+<span class="line">        image_part <span class="token operator">=</span> MIMEImage<span class="token punctuation">(</span>f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">        image_part<span class="token punctuation">.</span>add_header<span class="token punctuation">(</span><span class="token string">'Content-Disposition'</span><span class="token punctuation">,</span> <span class="token string">'attachment'</span><span class="token punctuation">,</span> filename<span class="token operator">=</span><span class="token string">'output.png'</span><span class="token punctuation">)</span></span>
+<span class="line">        msg<span class="token punctuation">.</span>attach<span class="token punctuation">(</span>image_part<span class="token punctuation">)</span></span>
+<span class="line">    <span class="token comment"># 添加邮件正文</span></span>
+<span class="line">    msg<span class="token punctuation">.</span>attach<span class="token punctuation">(</span>MIMEText<span class="token punctuation">(</span>message<span class="token punctuation">,</span> <span class="token string">'html'</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line">    <span class="token comment"># 连接到SMTP服务器</span></span>
+<span class="line">    server <span class="token operator">=</span> smtplib<span class="token punctuation">.</span>SMTP<span class="token punctuation">(</span><span class="token string">'smtp.qq.com'</span><span class="token punctuation">)</span>  <span class="token comment"># 这里使用的是Gmail的SMTP服务器，如果使用其他邮箱，请查阅相应的SMTP服务器地址和端口号</span></span>
+<span class="line">    server<span class="token punctuation">.</span>starttls<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token keyword">try</span><span class="token punctuation">:</span></span>
+<span class="line">        <span class="token comment"># 登录邮箱</span></span>
+<span class="line">        server<span class="token punctuation">.</span>login<span class="token punctuation">(</span>sender_email<span class="token punctuation">,</span> sender_password<span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">        <span class="token comment"># 发送邮件</span></span>
+<span class="line">        server<span class="token punctuation">.</span>sendmail<span class="token punctuation">(</span>sender_email<span class="token punctuation">,</span> receiver_email<span class="token punctuation">,</span> msg<span class="token punctuation">.</span>as_string<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"邮件发送成功"</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span></span>
+<span class="line">        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"邮件发送失败:"</span><span class="token punctuation">,</span> <span class="token builtin">str</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">finally</span><span class="token punctuation">:</span></span>
+<span class="line">        <span class="token comment"># 关闭连接</span></span>
+<span class="line">        server<span class="token punctuation">.</span>quit<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">def</span> <span class="token function">generate_salary_slip</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span><span class="token punctuation">:</span></span>
+<span class="line">    <span class="token comment"># 批量进行变量命名</span></span>
+<span class="line">    variable_prefix <span class="token operator">=</span> <span class="token string">"variable_"</span>  <span class="token comment"># 变量名前缀</span></span>
+<span class="line">    variable_count <span class="token operator">=</span> <span class="token number">48</span>  <span class="token comment"># 变量数量</span></span>
+<span class="line">    <span class="token comment"># 使用循环生成变量名</span></span>
+<span class="line">    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> variable_count <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span></span>
+<span class="line">        variable_name <span class="token operator">=</span> variable_prefix<span class="token operator">+</span> <span class="token builtin">str</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span></span>
+<span class="line">        <span class="token comment"># 在这里可以使用生成的变量名进行后续操作</span></span>
+<span class="line">        <span class="token comment"># 例如，可以使用 exec() 函数动态创建变量</span></span>
+<span class="line">        <span class="token keyword">exec</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"</span><span class="token interpolation"><span class="token punctuation">{</span>variable_name<span class="token punctuation">}</span></span><span class="token string"> = row[</span><span class="token interpolation"><span class="token punctuation">{</span>i<span class="token punctuation">}</span></span><span class="token string">]"</span></span><span class="token punctuation">,</span><span class="token builtin">globals</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token comment"># 生成HTML内容</span></span>
+<span class="line">    html <span class="token operator">=</span> <span class="token string-interpolation"><span class="token string">f"""</span>
+<span class="line">            &lt;body&gt;</span>
+<span class="line">    &lt;table border="1" style="border-collapse: collapse;"&gt;</span>
+<span class="line">        &lt;caption&gt;员工工资表&lt;/caption&gt;</span>
+<span class="line">        &lt;tr align="center" valign="middle"&gt;</span>
+<span class="line">            &lt;td rowspan="2"&gt;姓名&lt;/td&gt;</span>
+<span class="line">            &lt;td rowspan="2"&gt;任职&lt;/td&gt;</span>
+<span class="line">            &lt;td colspan="7"&gt;基本数据&lt;/td&gt;</span>
+<span class="line">            &lt;td colspan="2"&gt;出勤天数&lt;/td&gt;</span>
+<span class="line">            &lt;td colspan="22"&gt;应发栏&lt;/td&gt;</span>
+<span class="line">            &lt;td colspan="14"&gt;代扣栏&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;实发栏&lt;/td&gt;</span>
+<span class="line">        &lt;/tr&gt;</span>
+<span class="line">        &lt;tr&gt;</span>
+<span class="line">            &lt;td&gt;岗位工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;季度绩效薪系数&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;月掘进奖岗位系数&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;年功工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;职务津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;专业技术津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;公立天数&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;出勤&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;其他&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;岗位工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;年功工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;出勤工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;月度掘进奖&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;职位津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;专业技术津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;注册执业津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;流动施工津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;技术测量实验津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;隧道施工津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;高原地区津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;风沙地区津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;伙食补贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;社保补助津贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;公务通讯补助&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;防暑降温补贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;采暖费补贴&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;女卫费&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;季度绩效薪&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;法定节假日加班工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;其他工资&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;合计&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;企业年金&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;养老保险&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;失业保险&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;住房公积金&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;医疗保险&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;其他扣款&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;专项附加扣除&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;年累应纳税所得额&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;年累应缴个税&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;年累已缴个税&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;本月个税&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;伙食费&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;风险抵押金&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;合计&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;实发合计&lt;/td&gt;</span>
+<span class="line">        &lt;/tr&gt;</span>
+<span class="line">        &lt;tr&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_1<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_2<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_3<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_4<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_5<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_6<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_7<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_8<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_9<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_10<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_11<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_12<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_13<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_14<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_15<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_16<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_17<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_18<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_19<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_20<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_21<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_22<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_23<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_24<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_25<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_26<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_27<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_28<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_29<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_30<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_31<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_32<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_33<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_34<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_35<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_36<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_37<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_38<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_39<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_40<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_41<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_42<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_43<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_44<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_45<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_46<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_47<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">            &lt;td&gt;</span><span class="token interpolation"><span class="token punctuation">{</span>variable_48<span class="token punctuation">}</span></span><span class="token string">&lt;/td&gt;</span>
+<span class="line">        &lt;/tr&gt;</span>
+<span class="line">    &lt;/table&gt;</span>
+<span class="line">&lt;/body&gt;</span>
+<span class="line">    """</span></span></span>
+<span class="line"></span>
+<span class="line">    <span class="token keyword">return</span> html</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 读取工资条数据</span></span>
+<span class="line">df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_excel<span class="token punctuation">(</span><span class="token string">'./工资条.xlsx'</span><span class="token punctuation">,</span>sheet_name<span class="token operator">=</span><span class="token string">"Sheet1"</span><span class="token punctuation">)</span>  <span class="token comment"># 将'salary_data.xlsx'替换为您的工资条数据文件路径</span></span>
+<span class="line">df <span class="token operator">=</span> df<span class="token punctuation">.</span>fillna<span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 邮箱信息</span></span>
+<span class="line">sender_email <span class="token operator">=</span> <span class="token string">'2927678784@qq.com'</span>  <span class="token comment"># 发件人邮箱</span></span>
+<span class="line">sender_password <span class="token operator">=</span> <span class="token string">'dpbnrtofkhmqdgcb'</span>  <span class="token comment"># 发件人邮箱密码或授权码</span></span>
+<span class="line"><span class="token comment"># subject = '工资数据'  # 邮件主题</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># 遍历每位员工的工资信息，生成HTML工资条并发送邮件</span></span>
+<span class="line"><span class="token keyword">for</span> index<span class="token punctuation">,</span> row <span class="token keyword">in</span> df<span class="token punctuation">.</span>iterrows<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span></span>
+<span class="line">    receiver_email <span class="token operator">=</span> row<span class="token punctuation">[</span><span class="token string">'邮箱账号'</span><span class="token punctuation">]</span>  <span class="token comment"># 假设邮箱账号列名为'邮箱账号'，请根据实际情况修改</span></span>
+<span class="line">    subject <span class="token operator">=</span> <span class="token string">'工资条'</span>  <span class="token comment"># 邮件主题</span></span>
+<span class="line">    message <span class="token operator">=</span> generate_salary_slip<span class="token punctuation">(</span>row<span class="token punctuation">)</span>  <span class="token comment"># 生成HTML工资条内容的函数，根据实际情况修改</span></span>
+<span class="line">    send_salary_slip<span class="token punctuation">(</span>sender_email<span class="token punctuation">,</span> sender_password<span class="token punctuation">,</span> receiver_email<span class="token punctuation">,</span> subject<span class="token punctuation">,</span> message<span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line"></span></code></pre></div></div></article><!--]--></div></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script src="/assets/js/runtime~app.7a204223.js" defer></script><script src="/assets/js/484.0e1141fb.js" defer></script><script src="/assets/js/app.1ea6f656.js" defer></script>
+  </body>
+</html>
