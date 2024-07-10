@@ -1,16 +1,3 @@
 import comp from "D:/VueProject/myblog/skycity/docs/.vuepress/.temp/pages/posts/PowerBI实例.html.vue"
-const data = JSON.parse("{\"path\":\"/posts/PowerBI%E5%AE%9E%E4%BE%8B.html\",\"title\":\"Power BI 实例\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2024-07-10T00:00:00.000Z\",\"category\":[\"BI\",\"数据分析\"],\"tag\":[\"数据分析\",\"办公\"],\"archive\":false},\"headers\":[{\"level\":2,\"title\":\"1.上市公司的财务报表和股票价格可视化\",\"slug\":\"_1-上市公司的财务报表和股票价格可视化\",\"link\":\"#_1-上市公司的财务报表和股票价格可视化\",\"children\":[]},{\"level\":2,\"title\":\"2.股票市场分析\",\"slug\":\"_2-股票市场分析\",\"link\":\"#_2-股票市场分析\",\"children\":[]},{\"level\":2,\"title\":\"3.赣锋锂业财务分析\",\"slug\":\"_3-赣锋锂业财务分析\",\"link\":\"#_3-赣锋锂业财务分析\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"posts/PowerBI实例.md\",\"excerpt\":\"\\n<h2>1.上市公司的财务报表和股票价格可视化</h2>\\n<p></p>\\n<h2>2.股票市场分析</h2>\\n<p></p>\\n<h2>3.赣锋锂业财务分析</h2>\\n<p></p>\\n\"}")
+const data = JSON.parse("{\"path\":\"/posts/PowerBI%E5%AE%9E%E4%BE%8B.html\",\"title\":\"Power BI 实例\",\"lang\":\"en-US\",\"frontmatter\":{\"date\":\"2024-07-10T00:00:00.000Z\",\"category\":[\"BI\",\"数据分析\"],\"tag\":[\"数据分析\",\"办公\"],\"archive\":false},\"headers\":[{\"level\":2,\"title\":\"1.上市公司的财务报表和股票价格可视化\",\"slug\":\"_1-上市公司的财务报表和股票价格可视化\",\"link\":\"#_1-上市公司的财务报表和股票价格可视化\",\"children\":[]},{\"level\":2,\"title\":\"2.股票市场分析\",\"slug\":\"_2-股票市场分析\",\"link\":\"#_2-股票市场分析\",\"children\":[]},{\"level\":2,\"title\":\"3.赣锋锂业财务分析\",\"slug\":\"_3-赣锋锂业财务分析\",\"link\":\"#_3-赣锋锂业财务分析\",\"children\":[]}],\"git\":{\"updatedTime\":1720629500000,\"contributors\":[{\"name\":\"huchenghepang\",\"email\":\"2927678784@qq.com\",\"commits\":1}]},\"filePathRelative\":\"posts/PowerBI实例.md\",\"excerpt\":\"\\n<h2>1.上市公司的财务报表和股票价格可视化</h2>\\n<p></p>\\n<h2>2.股票市场分析</h2>\\n<p></p>\\n<h2>3.赣锋锂业财务分析</h2>\\n<p></p>\\n\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
