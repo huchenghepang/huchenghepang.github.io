@@ -5,10 +5,10 @@ category:
 tag:
   - 前端
   - Vue
-  - 面试题
+  - 知识点
 archive: false
 ---
-# Vue前端面试题
+# Vue相关知识
 
 ### 1、为什么`Vue`中data数据都是以函数的方式返回？
 
