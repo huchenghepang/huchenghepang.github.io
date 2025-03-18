@@ -1,10 +1,10 @@
 ---
-date: 2024-05-17
+date: 2025-3-19
 category:
-  - JavaScript
+  - Mac
 tag:
-  - 前端
-archive: false
+  - 操作系统
+archive: true
 ---
 
 
